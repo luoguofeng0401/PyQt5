@@ -12,7 +12,7 @@ from untitled import Ui_MainWindow
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
-        self,setupUi(self)
+        self.setupUi(self)
 
 if __name__=="__main":
     app = QApplication(sys.argv)
